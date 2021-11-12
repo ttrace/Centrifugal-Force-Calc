@@ -4,6 +4,8 @@ This project shares a small Python program GRAVITY.py, which calculates pseudo c
 
 GRAVITY.py supports SFF writers who are writing space development stories.
 
+![Screen](screen.png)
+
 ## Prompt
 
 GRAVITY.py tells a model space station specs, which produces 1G (9.8m^2) on startup.

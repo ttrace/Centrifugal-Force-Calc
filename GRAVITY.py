@@ -13,10 +13,10 @@ type=1
 def print_params():
     rS="Radius:r={0:.2f}m".format(r)
     Cy=60/N
-    NS="Rotation:N={0:.2f}rpm({1:.2f}sec/cycle)".format(N,Cy)
+    NS="Rotation Speed:\n  N={0:.2f}rpm({1:.2f}sec/cycle)".format(N,Cy)
     v= r * ((N * 360 / 60) * pi /180)
     vkm = v * 60 * 60 / 1000
-    LiS="Linear Speed: {0:.2f} m/s({1:.2f} km/h)".format(v,vkm)
+    LiS="Linear Speed:\n  {0:.2f} m/s({1:.2f} km/h)".format(v,vkm)
     GS="Pseudo Gravity:G={0:.2f}(xg)".format(G)
     print(rS)
     print(NS)
