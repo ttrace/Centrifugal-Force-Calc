@@ -10,9 +10,9 @@ GRAVITY.py tells a model space station specs, which produces 1G (9.8m^2) on star
 
 ```
 Radius:r=894.70m
-Rotation Speed:N=1.00rpm
-Rotation Cycle 60.00sec
-Pseudo Gravity:G=1.00(+g)
+Rotation:N=1.00rpm(60.00sec/cycle)
+Linear Speed: 93.69 m/s(337.29 km/h)
+Pseudo Gravity:G=1.00(xg)
 ```
 
 Below the startup prompt, GRAVITY.py asks you which parameter you want to change.
@@ -21,18 +21,18 @@ Below the startup prompt, GRAVITY.py asks you which parameter you want to change
 Select Parameter by 
  [0]uit [1]:r [2]:N 
  [3]:G keep r [4]:G keep N
-Enter Number [0]-[4]:
+Enter Number [0]-[4] > 
 ```
 
 If you want to know the rotation speed of the Carousel, which is a deck of Discovery ONE in Space Odessey 2001, set the radius at first.  Enter \[1\] and 12 (meter).  You will get the centrifugal force by 12-meter radius Carusel rotating 1 rpm.
 
 ```
-Enter Number [0]-[4]:1
-enter Radius of wheels by meter(m): 12
+Enter Number [0]-[4] > 1
+enter Radius of wheels by meter(m) >> 12
 Radius:r=12.00m
-Rotation Speed:N=1.00rpm
-Rotation Cycle 60.00sec
-Pseudo Gravity:G=0.01(+g)
+Rotation:N=1.00rpm(60.00sec/cycle)
+Linear Speed: 1.26 m/s(4.52 km/h)
+Pseudo Gravity:G=0.01(xg)
 ```
 
 0.01G is too small by Clarke's setting.  He wrote the force was identical to the Moon, 0.16G.  Then set G with keeping \[r\]adius.
@@ -40,14 +40,11 @@ Pseudo Gravity:G=0.01(+g)
 Enter 3 to set gravity with keeping radius, and enter 0.16 (+g).  You will get 3.45 rpm (17.37-seconds cycle).
 
 ```
-Select Parameter by 
- [0]uit [1]:r [2]:N 
- [3]:G keep r [4]:G keep NEnter Number [0]-[4]:3
-enter GA m/s^2 with keep r: 0.16
+enter GA m/s^2 with keep r >> 0.16
 Radius:r=12.00m
-Rotation Speed:N=3.45rpm
-Rotation Cycle 17.37sec
-Pseudo Gravity:G=0.16(+g)
+Rotation:N=3.45rpm(17.37sec/cycle)
+Linear Speed: 4.34 m/s(15.62 km/h)
+Pseudo Gravity:G=0.16(xg)
 ```
 
 
