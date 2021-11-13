@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from math import *
 r=894.7
 N=1.0
