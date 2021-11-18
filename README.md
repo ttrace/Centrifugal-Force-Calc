@@ -1,4 +1,4 @@
-# Centrifugal-Force-Calc
+# Centrifugal Force Calc
 
 This project shares a small Python program GRAVITY.py, which calculates pseudo centrifugal force produced by rotation of spaceships, space stations, or space islands.
 
